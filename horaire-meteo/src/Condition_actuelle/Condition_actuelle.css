@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.div-condition-actuelle{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    width: 40%;
+
+    background-color: #EEEEEE;
+    border-radius: 0px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: width 3s ease-in-out, height 3s ease-in-out, background-color 3s ease-in-out;
+    
+
+    font-family: 'Roboto', sans-serif;
+}
+
+.div-temp {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    font-size: 30px;
+}
+
+.temp-icon{
+    width: 150px;
+    height: 150px;
+}
+
+.temperature{
+    font-size: 28px;
+}
